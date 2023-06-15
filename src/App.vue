@@ -12,6 +12,7 @@ import NewFooter from './components/NewFooter.vue'
 </template>
 
 <style>
+@import './styles/general.scss'
 
 
 </style>
