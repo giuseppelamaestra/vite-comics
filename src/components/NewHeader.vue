@@ -3,43 +3,45 @@
 
    
  <nav class="bg-white">
-   <div class="wrapper">
+   <div class="wrapper flex">
+       
+      <img src="../../public/imgs/dc-logo.png" alt="logo DC-comics">
+      
        <ul class="flex">
-        <li>
+         <li>
             carachters 
-        </li>
-        <li>
+         </li>
+         <li>
             comics 
-        </li>
-        <li>
+         </li>
+         <li>
            movies 
-        </li>
-        <li>
+         </li>
+         <li>
             tv
 
-        </li>
-        <li>
+         </li>
+         <li>
               games 
-        </li>
-        <li>
+         </li>
+         <li>
              collectibles 
-        </li>
-        <li>
+         </li>
+         <li>
             videos 
-        </li>
-        <li>
+         </li>
+         <li>
              fans 
-        </li>
-        <li> 
+         </li>
+         <li> 
             news 
-        </li>
-        <li>
+         </li>
+         <li>
             shop 
-        </li>
-       </ul>
-    </div>
-
-    </nav>
+         </li>
+     </ul>
+   </div>
+  </nav>
 
 
 </template>
