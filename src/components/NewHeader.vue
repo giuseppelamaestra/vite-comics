@@ -8,37 +8,11 @@
       <img src="../../public/imgs/dc-logo.png" alt="logo DC-comics">
       
        <ul class="flex">
-         <li>
-            carachters 
+         <li v-for="link in links">
+            {{ link }}
          </li>
-         <li>
-            comics 
-         </li>
-         <li>
-           movies 
-         </li>
-         <li>
-            tv
-
-         </li>
-         <li>
-              games 
-         </li>
-         <li>
-             collectibles 
-         </li>
-         <li>
-            videos 
-         </li>
-         <li>
-             fans 
-         </li>
-         <li> 
-            news 
-         </li>
-         <li>
-            shop 
-         </li>
+        
+   
      </ul>
    </div>
   </nav>
@@ -46,7 +20,26 @@
 
 </template>
 <script>
-
+ export default {
+   data(){
+      return {  
+         
+         links : [
+         'carachters',
+         'comics',
+         'movies',
+         'tv',
+         'games',
+         'collectibles',
+         'videos',
+         'fans',
+         'news',
+         'shop',
+      ],
+   }
+   
+   }
+ }
 </script>
 
 <style>
