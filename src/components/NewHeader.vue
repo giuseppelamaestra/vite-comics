@@ -1,7 +1,9 @@
 <template>
 
-    <nav>
-    
+
+   
+ <nav class="bg-white">
+   <div class="wrapper">
        <ul class="flex">
         <li>
             carachters 
@@ -35,7 +37,10 @@
             shop 
         </li>
        </ul>
+    </div>
+
     </nav>
+
 
 </template>
 <script>
