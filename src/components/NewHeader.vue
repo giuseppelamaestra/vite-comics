@@ -3,7 +3,7 @@
 
    
  <nav class="bg-white">
-   <div class="wrapper flex">
+   <div class="wrapper flex space-between">
        
       <img src="../../public/imgs/dc-logo.png" alt="logo DC-comics">
       
