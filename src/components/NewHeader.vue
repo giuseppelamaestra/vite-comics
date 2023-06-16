@@ -7,7 +7,7 @@
        
       <img src="../../public/imgs/dc-logo.png" alt="logo DC-comics">
       
-       <ul class="flex">
+       <ul class="flex header-link">
          <li v-for="link in links">
             {{ link }}
          </li>
