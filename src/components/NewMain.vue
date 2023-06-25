@@ -10,5 +10,9 @@
   
 </section>
 </template>
-<script></script>
+<script>
+export default {
+  name: 'NewMain',
+}
+</script>
 <style></style>

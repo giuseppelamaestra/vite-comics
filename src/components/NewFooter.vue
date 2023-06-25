@@ -1,40 +1,64 @@
 <template>
     <footer>
         <div class="wrapper footer-links flex">
+          <div>
+            <ul v-for="link in links">
+              
+              
+              <li> 
+                  {{ link }}
+              </li>
+            
+           </ul>
+          </div> 
+      
+          <div>
+            <ul v-for="link in links">
+              
+              
+              <li> 
+                  {{ link }}
+              </li>
+            
+           </ul>
+          </div> 
 
-            <ul>
-                <li>ciao</li>
-                <li>ciao</li>
-                <li>ciao</li>
-                <li>ciao</li>
-                <li>ciao</li>
-                <li>ciao</li>
-                <li>ciao</li>
-            </ul>
-
-            <ul>
-                <li>ciao</li>
-                <li>ciao</li>
-                <li>ciao</li>
-                <li>ciao</li>
-                <li>ciao</li>
-                <li>cioa </li>
-                <li></li>
-                <li>cuai </li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-
-            <ul>
-                <li>cuai</li>
-                <li></li>
-                <li>cuai</li>
-                <li></li>
-                <li></li>
-            </ul>
+          <div>
+            <ul v-for="link in links">
+              
+              
+              <li> 
+                  {{ link }}
+              </li>
+            
+           </ul>
+          </div> 
         </div>
     </footer>
 </template>
-<script></script>
+<script>
+export default {
+  name: 'NewFooter',
+   data(){
+      return {  
+         
+         links : [
+         'carachters',
+         'comics',
+         'movies',
+         'tv',
+         'games',
+         'collectibles',
+         'videos',
+         'fans',
+         'news',
+         'shop',
+      ],
+   }
+   
+   }
+ }
+
+
+</script>
 <style></style>
